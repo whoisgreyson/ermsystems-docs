@@ -25,7 +25,8 @@
             "group": "Modules",
             "pages": [
               "modules/leave-requests",
-              "modules/shifts"
+              "modules/shifts",
+              "modules/punishments"
             ]
           },
           {
