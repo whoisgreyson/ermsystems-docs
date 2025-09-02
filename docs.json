@@ -31,7 +31,6 @@
           {
             "group": "Writing content",
             "pages": [
-              "modules/loa-module",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
