@@ -24,7 +24,7 @@
           {
             "group": "Modules",
             "pages": [
-              "essentials/settings",
+              "modules/loa-module",
               "essentials/navigation"
             ]
           },
