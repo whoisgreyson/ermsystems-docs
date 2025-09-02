@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Modules",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
@@ -31,7 +31,7 @@
           {
             "group": "Writing content",
             "pages": [
-              "essentials/markdown",
+              "modules/loa-module",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
