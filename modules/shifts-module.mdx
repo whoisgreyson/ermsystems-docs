@@ -1,0 +1,46 @@
+---
+title: "Shift Management"
+description: "Track staff shifts from start to finish."
+---
+
+The ability to track when staff clock in and out is the core of any server operations. With ERM's shift management, you can easily track your own shift, manage the shifts from individual staff, view and export the activity leaderboard, and view real-time statistics.
+
+## Shift Management Configuration
+
+1. Enable the Shift Management module: `/config > Basic Settings > Shift Management` and enable the plugin using the first select menu.
+2. Select a log channel where all requests will be sent with the with the second select menu. (This is optional).
+3. Select an on-duty role that will be toggled when an employee manages their shift with the third select menu.
+
+### Optional Configuration Settings
+
+- **Role Quotas:** Click the "Role Quotas" option, and then click on the "Create Role Quota" option. You will then need to set the quota and configure the associated role.
+- \*\*Shift Types: \*\*Click the "Shift Types" option, and then click the "Create" option. Name your shift type in the form that appears, then configure the on-duty, break, and access roles; as well as the shift log channel. You can also select the "Edit Nickname Prefix" option to toggle a special discord name prefix when the shift is enabled.
+- **More Options:**
+  - Configure a global break role, to be given when a user toggles their break.
+  - Global nickname prefix, to be set when a user goes online.
+  - Maximum staff online, to set a capacity of staff on shift at once.
+
+## Manage your Shift
+
+Staff can run the `/duty manage` command and begin, end, or toggle a break for their current shift. You can also view your current activity statistics, including total shift time, total number of shifts, and your average shift duration.
+
+## Managing another Staff Member's Shift
+
+Administrators can run the `/duty admin` command and specify a user to manage. From the select menu, you are able to:
+
+- **Add/Remove Time:** Add or subtract time from an ongoing shift.
+- **Void Shift:** Delete an ongoing shift.
+- \*\*Clear Member Shifts: \*\*Clear all shifts associated with the staff member.
+
+Managing another staff member's shifts also allows you to override their actions. You are able to begin, end, or toggle a break for an ongoing shift.
+
+## Remove all Shifts
+
+Management can run the `/server manage` command and navigate to the Shift Logging tab.
+
+| **Option**           | **Description**                                                                |
+| -------------------- | ------------------------------------------------------------------------------ |
+| Erase all Shifts     | Erase all shifts, regardless of whether they are currently active or previous. |
+| Erase Past Shifts    | Erase previously logged shifts, but ignore all ongoing shifts.                 |
+| Erase Active Shifts  | Erase all ongoing shifts, but ignore previously logged shifts.                 |
+| Erase Shifts by Type | Erase all shifts of a specific type.                                           |
