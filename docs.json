@@ -24,8 +24,8 @@
           {
             "group": "Modules",
             "pages": [
-              "modules/loa-module",
-              "modules/shifts-module"
+              "modules/leave-requests",
+              "modules/shifts"
             ]
           },
           {
