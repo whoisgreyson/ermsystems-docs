@@ -25,6 +25,7 @@
             "group": "Modules",
             "pages": [
               "modules/anti-ping",
+              "modules/basic-settings",
               "modules/game-logging",
               "modules/game-security",
               "modules/leave-requests",
