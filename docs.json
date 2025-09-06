@@ -24,9 +24,12 @@
           {
             "group": "Modules",
             "pages": [
+              "modules/anti-ping",
+              "modules/game-logging",
+              "modules/game-security",
               "modules/leave-requests",
-              "modules/shifts",
-              "modules/punishments"
+              "modules/punishments",
+              "modules/shifts"
             ]
           },
           {
