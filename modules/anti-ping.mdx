@@ -1,0 +1,21 @@
+---
+title: "Anti-Ping"
+description: "Control unwanted mentions within your server."
+---
+
+If your server encounters a lot of unnecessary mentions by members of the community, Anti-Ping can be an efficient module to remind users of your server guidelines. While simplistic, consistent reminders can help to ease the workload for your moderators and ensure compliance across the community.
+
+## Anti-Ping Configuration
+
+1. Enable the Anti-Ping module: `/config > Basic Settings > Anti-Ping` and enable the module using the first select menu.
+2. With the second select menu, select the roles you want to be protected by the module. Users who ping these roles will trigger the Anti-Ping reminder.
+3. Select your bypass roles with the third menu. These roles will not trigger the reminder if they mention someone with an Affected Role.
+4. With the fourth menu, you can select whether role hierarchy is in effect. This setting will account for all roles higher than the ones considered affected.
+
+## Automatic Detection & Notification
+
+ERM will screen all messages for this Anti-Ping protection and notify users who do not comply. ERM will continue to send the message when an Affected Role is detected on a mentioned user.
+
+<Tip>
+  For the best usage, we encourage server staff to publicize the usage of this plugin. A quick and easy way to do this is to mention in your server guidelines that mentioning staff above a certain rank is prohibited.
+</Tip>
