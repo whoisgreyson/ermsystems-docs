@@ -1,100 +1,88 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "ERM Systems Documentation",
-  "colors": {
-    "primary": "#F86B6B",
-    "light": "#F86B6B",
-    "dark": "#F86B6B"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "changelog"
-            ]
-          },
-          {
-            "group": "Modules",
-            "pages": [
-              "modules/anti-ping",
-              "modules/applications",
-              "modules/basic-settings",
-              "modules/game-logging",
-              "modules/game-security",
-              "modules/leave-requests",
-              "modules/punishments",
-              "modules/ra-requests",
-              "modules/shifts"
-            ]
-          },
-          {
-            "group": "Tools",
-            "pages": [
-              "tools/dashboard",
-              "tools/moderator-panel",
-              "tools/copilot",
-              "tools/remote-commands"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-      ]
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "ERM Systems Documentation",
+    "colors": {
+        "primary": "#F86B6B",
+        "light": "#F86B6B",
+        "dark": "#F86B6B"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guides",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "introduction",
+                            "quickstart",
+                            "changelog"
+                        ]
+                    },
+                    {
+                        "group": "Modules",
+                        "pages": [
+                            "modules/anti-ping",
+                            "modules/applications",
+                            "modules/basic-settings",
+                            "modules/game-logging",
+                            "modules/game-security",
+                            "modules/leave-requests",
+                            "modules/punishments",
+                            "modules/ra-requests",
+                            "modules/shifts"
+                        ]
+                    },
+                    {
+                        "group": "Tools",
+                        "pages": [
+                            "tools/dashboard",
+                            "tools/moderator-panel",
+                            "tools/copilot",
+                            "tools/remote-commands"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": []
+        }
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "https://discord.gg/tCY6d5u4kv"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://ermbot.xyz"
+        }
+    },
+    "contextual": {
+        "options": []
+    },
+    "footer": {
+        "socials": {}
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "https://discord.gg/tCY6d5u4kv"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://ermbot.xyz"
-    }
-  },
-  "contextual": {
-    "options": [
-   ]
-  },
-  "footer": {
-    "socials": {
-    }
-  }
 }
