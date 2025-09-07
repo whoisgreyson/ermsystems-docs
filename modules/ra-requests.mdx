@@ -1,0 +1,31 @@
+---
+title: "Reduced Activity Requests"
+description: "Give staff a break on their quota with this module."
+---
+
+With reduced activity (RA) requests, your staff can inform their supervisors that they are unable to meet their quota for the current wave. With this module, staff can request a hybrid between active and on a leave of absence.
+
+## Reduced Activity Configuration
+
+1. Enable the Leave of Absence module: `/config > Basic Settings > RA Requests` and select the associated role to be toggled for staff on a reduced activity notice.
+2. The module will automatically be enabled once you select a role\!
+
+## Create a RA Request
+
+Staff can run the `/ra request` command and customize the time and reason for their reduced activity.
+
+<Info>
+  **Note:** When staff provide a time, confirm that it aligns with the time parsing so ERM understands the duration\!
+</Info>
+
+## Managing a RA Request
+
+Administrators can run the `/ra admin` command and specify a user to manage. On the select menu that appears, click the delete button to remove an active LOA request.
+
+## Remove all RA Requests
+
+Management can run the `/server manage` command and navigate to the Activity Notices tab. Choose to erase active RA notices. This will remove all active notices from your staff.
+
+<Warning>
+  Erasing active RA notices will not remove the role from your staff—it will only remove the records from your server's database.
+</Warning>

@@ -25,28 +25,23 @@
             "group": "Modules",
             "pages": [
               "modules/anti-ping",
+              "modules/applications",
               "modules/basic-settings",
               "modules/game-logging",
               "modules/game-security",
               "modules/leave-requests",
               "modules/punishments",
+              "modules/ra-requests",
               "modules/shifts"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Tools",
             "pages": [
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "tools/dashboard",
+              "tools/moderator-panel",
+              "tools/copilot",
+              "tools/remote-commands"
             ]
           }
         ]

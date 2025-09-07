@@ -3,4 +3,28 @@ title: "Remote Commands"
 description: "Execute actions from your private roleplay server."
 ---
 
-ERM makes it easy for your team to 
+ERM makes it easy for your team to execute commands from in-game using the `:log` command. With this simplicity, your team can eliminate the need to tab back and forth between a moderator panel—and streamline all actions from their Roblox client.
+
+## Log a Punishment
+
+- :log punish [Username] [Action] [Reason]
+
+In this instance, the "Action" is the specific action to punish the user with (warn, kick, ban, etc.).
+
+## Log a Punishment & Moderate the User In-Game
+
+- :log punish [Username] [Action] [Reason] --kick
+- :log punish [Username] [Action] [Reason] --ban
+
+In this instance, the "Action" is the specific action to punish the user with (warn, kick, ban, etc.). The suffix at the end tells ERM to execute the specific action on the user in-game, dependent on the type of action you specify.
+
+## Actions & Custom Commands
+
+- :log actions execute [Name]
+- :log custom run [Name]
+
+With these options, you are able to execute a custom action or command frmo your in-game server by specifying the name.
+
+<Warning>
+  This tool is designed exclusively for Police Roleplay Community's Emergency Response: Liberty County experience. If your private server is not hosted within this Roblox experience, this module won't work.
+</Warning>
